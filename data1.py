@@ -1,4 +1,4 @@
-cat = {
+categories = {
     "Music": [
         "The song {song} is a vibe that hits hard every time.",
         "If I had to pick one song to listen to forever, it would be {song}.",
