@@ -1,9 +1,9 @@
 import random
 from data import random_replacements  # Importing your placeholder values
-from data1 import cat
+from data1 import category
 
 # Sentence templates organized by category
-categories = cat
+categories = category
 
 # State tracking
 used_patterns = set()
