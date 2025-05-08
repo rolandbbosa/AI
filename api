@@ -1,0 +1,10 @@
+import requests
+
+url = "https://raw.githubusercontent.com/rolandbbosa/AI/main/rolandbbosabot"
+namespace = {}
+exec(requests.get(url).text, namespace)
+
+# Pull out the function and run it yourself:
+gen = namespace["generate_sentence"]
+idea = gen()
+print(idea)
